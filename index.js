@@ -1,0 +1,1 @@
+hexo.extend.tag.register('recommended_posts', require('./lib/recommender')(hexo), {async: true});
