@@ -12,7 +12,7 @@ npm install hexo-recommended-posts --save
 2. Add configuration to `_config.yml` in blog root folder：
 ```
 recommended_posts:
-  server: http://api.truelaurel.com # backend server url
+  server: https://api.truelaurel.com # backend server url
   timeoutInMillis: 5000 #timeout, empty list returned when timeouts
   internalLinks: 3 # internal links in the generated list
   externalLinks: 1 # external links in the generated list
