@@ -1,8 +1,12 @@
 {
   "name": "hexo-recommended-posts",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Recommended Posts Plugin for Hexo",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huiwang/hexo-recommended-posts"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
