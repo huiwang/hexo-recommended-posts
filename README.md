@@ -15,7 +15,7 @@ npm install hexo-recommended-posts --save
 在博客根目录的`_config.yml`里添加插件配置：
 ```
 recommended_posts:
-  server: http://api.truelaurel.com #后端推荐服务器地址
+  server: https://api.truelaurel.com #后端推荐服务器地址
   timeoutInMillis: 5000 #服务时长，超过此时长，则生成空文章列表
   internalLinks: 3 #内部文章数量
   externalLinks: 1 #外部文章数量
