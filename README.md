@@ -19,8 +19,7 @@ recommended_posts:
   externalLinks: 1 #外部文章数量
 ```
 
-3. 在文章Markdown里插入推荐标签
-在文章的合适位置插入次标签 `{% recommended_posts %}`，生成推荐文章列表，如下面文章示例：
+3. 在文章Markdown里插入标签`{% recommended_posts %}`，生成文章列表：
 ```
 ---
 title: 示例文章标题
