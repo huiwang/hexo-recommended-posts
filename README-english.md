@@ -2,7 +2,7 @@
 This plugin promotes co-participation among bloggers. By recommending posts between blogs, we hope to increase your posts exposure to more readers, which allows to collect more feedbacks from readers and thus improve your blog's quality.
 
 # How it works
-This plugin generate a recommended posts list. For instance, you can have three internal links and one external link in the list. The more bloggers participate, the bigger odds you'll have your posts refered by other bloggers.
+This plugin generates an inter-blog recommended posts list. For instance, you can have three internal links and one external link in the list. The more bloggers participate, the bigger odds you'll have your posts refered by other bloggers.
 
 # Get started
 1. Install the plugin
