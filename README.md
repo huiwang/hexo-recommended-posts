@@ -37,7 +37,7 @@ hexo recommend
 - 通过在文章Markdown里插入`tag`操作单一文章
 - 通过修改主题，使用`helper`覆盖博客所有文章
 
-4.1 手动添加Tag
+4.1. 手动添加Tag
 
 在文章Markdown的合适位置插入`{% recommended_posts %}`标签， 比如
 ```
@@ -51,7 +51,7 @@ tags: [hello, world]
 {% recommended_posts %}
 ```
 
-4.2 配置主题
+4.2. 配置主题
 
 博客主题可以使用本插件提供的Helper `recommended_post(post, site)`来显示推荐文章。下面提供一个配置示例，请根据您的具体需求进行修改：
 
