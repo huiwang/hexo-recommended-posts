@@ -75,7 +75,7 @@ We can use the helper `recommended_post(post, site)` in the theme to render the 
     <% } %> 
 </div>
 ```
-If you use the famous hexo-next-theme，please refer [here (in swig)](https://github.com/huiwang/hexo-theme-next/commit/08d07dd1d4af174d4532dda00b7dbf9cae701f36)。
+If you use the famous hexo-next-theme，please refer [here (in swig)](https://github.com/huiwang/hexo-theme-next/commit/08d07dd1d4af174d4532dda00b7dbf9cae701f36).
 
 Please contact me to include your theme in the supported theme list if you are a theme maintainer.
 
