@@ -78,3 +78,6 @@ tags: [hello, world]
 ```
 hexo generate
 ```
+
+# 感谢
+- [reuixiy](https://reuixiy.github.io/) 
