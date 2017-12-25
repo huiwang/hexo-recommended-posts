@@ -1,4 +1,6 @@
-
+[中文](README.md) | [English](README-en.md)
+# 致谢
+首先我想借此页面谢谢[reuixiy](https://reuixiy.github.io/)对此插件的贡献，这其中包括他的具有建设性的意见和快速的测试反馈。
 
 # Hexo跨博客文章推荐插件
 `Hexo跨博客文章推荐插件`鼓励博主们互惠互利，共享资源，智能帮助大家跨博客推荐彼此文章，为博客找到更多读者。更多动机请看[开发笔记](https://hui-wang.info/2017/12/22/%E5%AE%89%E5%8F%AF%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0%EF%BC%881%EF%BC%89/)。
@@ -78,6 +80,3 @@ tags: [hello, world]
 ```
 hexo generate
 ```
-
-# 感谢
-- [reuixiy](https://reuixiy.github.io/) 
