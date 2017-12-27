@@ -61,21 +61,9 @@ Content
 
 ### 4.2. Configure theme
 
-We can use the helper `recommended_post(post, site)` in the theme to render the recommended posts:
-```
-<div class="recommended_posts">
-    <% var recommended_posts = recommended_posts(post, site) %>
-    <% if(recommended_posts.length > 0) { %>
-    <h3>Recommended Posts</h3>
-    <ul>
-        <% recommended_posts.forEach(function(link) { %>
-            <li><a href="<%= link.permalink %>"><%= link.title %></a></li>
-        <% }) %>
-    </ul>
-    <% } %> 
-</div>
-```
-If you use the famous hexo-next-theme，please refer [here (in swig)](https://github.com/huiwang/hexo-theme-next/commit/08d07dd1d4af174d4532dda00b7dbf9cae701f36).
+There are two popular theme rendering engines in Hexo：
+- EJS: refer to config in [hexo-theme-freemind](https://github.com/wzpan/hexo-theme-freemind/pull/77/files)
+- SWIG：refer to config in [hexo-next-them](https://github.com/iissnan/hexo-theme-next/pull/2054/files)
 
 Please contact me to include your theme in the supported theme list if you are a theme maintainer.
 

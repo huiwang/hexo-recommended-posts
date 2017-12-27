@@ -55,22 +55,9 @@ tags: [hello, world]
 
 ### 4.2. 配置主题
 
-博客主题可以使用本插件提供的Helper `recommended_post(post, site)`来显示推荐文章。下面提供一个配置示例，请根据您的具体需求进行修改：
-
-```
-<div class="recommended_posts">
-    <% var recommended_posts = recommended_posts(post, site) %>
-    <% if(recommended_posts.length > 0) { %>
-    <h3>Recommended Posts</h3>
-    <ul>
-        <% recommended_posts.forEach(function(link) { %>
-            <li><a href="<%= link.permalink %>"><%= link.title %></a></li>
-        <% }) %>
-    </ul>
-    <% } %> 
-</div>
-```
-如果您使用著名的hexo-next-theme，请看[这里](https://github.com/huiwang/hexo-theme-next/commit/08d07dd1d4af174d4532dda00b7dbf9cae701f36)。
+Hexo有两个比较流行的渲染器：
+- EJS ：请参看[hexo-theme-freemind](https://github.com/wzpan/hexo-theme-freemind/pull/77/files)的配置
+- SWIG：请参看[hexo-next-them](https://github.com/iissnan/hexo-theme-next/pull/2054/files)的配置
 
 如果您是主题的维护者，请在配置完毕之后联系我，我会把您的主题加入到支持该插件的列表中。
 
