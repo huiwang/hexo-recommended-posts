@@ -76,3 +76,7 @@ After downloading the lists, run `generate` to include recommended posts.
 hexo generate
 ```
 
+# FAQ
+- What will happen if I can't connect to the recommendation server?
+
+When the server is not reachable, the plugin keeps the previously downloaded recommendation for existing posts and switches to an offline algorithm for new posts (only internal links are recommended). 
