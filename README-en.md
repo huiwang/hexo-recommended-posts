@@ -1,7 +1,9 @@
 [中文](README.md) | [English](README-en.md)
 
 # Acknowledgement
-First I want to give credit to [reuixiy](https://reuixiy.github.io/) for his contribution on the plugin including his constructive suggestions and prompt testing feedbacks.
+First of all, I want to give credits to friends I've not met, for their constructive suggestions and prompt testing feedbacks on the plugin.
+- [reuixiy](https://reuixiy.github.io/)
+- [sd44](http://sd44.github.io/)
 
 # Hexo Recommended Posts Plugin
 Recommended posts to promote your blog with both internal and external links. For more motivations, pleaser refer to [开发笔记(dev notes in English, help to translate?)](https://hui-wang.info/2017/12/22/%E5%AE%89%E5%8F%AF%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0%EF%BC%881%EF%BC%89/).
