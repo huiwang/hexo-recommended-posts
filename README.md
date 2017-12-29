@@ -4,8 +4,12 @@
 - [reuixiy](https://reuixiy.github.io/)
 - [sd44](http://sd44.github.io/)
 
+# 谁在用
+- [hexo-theme-freemind](https://github.com/wzpan/hexo-theme-freemind)
+
+
 # Hexo跨博客文章推荐插件
-`Hexo跨博客文章推荐插件`鼓励博主们互惠互利，共享资源，智能帮助大家跨博客推荐彼此文章，为博客找到更多读者。更多动机请看[开发笔记](https://hui-wang.info/2017/12/22/%E5%AE%89%E5%8F%AF%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0%EF%BC%881%EF%BC%89/)。
+本插件帮助大家跨博客推荐彼此文章，为博客找到更多读者。更多动机请看[开发笔记](https://hui-wang.info/2017/12/22/%E5%AE%89%E5%8F%AF%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0%EF%BC%881%EF%BC%89/)。
 
 # 工作原理
 插件从[推荐服务器](https://github.com/huiwang/encore)里获取文章推荐列表。列表中，一部分为博客内链（指向您自己的博客），一部分为外链（指向其他博主的文章）。所有链接均为静态生成，不需额外添加Javascript代码，有利于增加网站的搜索排名。基于互利互惠的合作思想，使用该插件的博主越多，文章被其他博主推荐的机会就越大。
