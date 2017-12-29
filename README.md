@@ -4,9 +4,8 @@
 - [reuixiy](https://reuixiy.github.io/)
 - [sd44](http://sd44.github.io/)
 
-# 谁在用
+# 已支持主题
 - [hexo-theme-freemind](https://github.com/wzpan/hexo-theme-freemind)
-
 
 # Hexo跨博客文章推荐插件
 本插件帮助大家跨博客推荐彼此文章，为博客找到更多读者。更多动机请看[开发笔记](https://hui-wang.info/2017/12/22/%E5%AE%89%E5%8F%AF%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0%EF%BC%881%EF%BC%89/)。
