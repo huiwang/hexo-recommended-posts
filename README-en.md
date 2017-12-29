@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/hexo-recommended-posts.svg)](https://badge.fury.io/js/hexo-recommended-posts)
+
 [中文](README.md) | [English](README-en.md)
 
 # Acknowledgement
