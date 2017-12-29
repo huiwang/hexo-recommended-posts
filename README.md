@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/hexo-recommended-posts.svg)](https://badge.fury.io/js/hexo-recommended-posts)
+
 [中文](README.md) | [English](README-en.md)
 # 致谢
 首先，我想感谢，未曾谋面的朋友们，对此插件的贡献，谢谢他们极具建设性的意见和快速的测试反馈
