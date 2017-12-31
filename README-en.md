@@ -4,7 +4,7 @@
 [中文](README.md) | [English](README-en.md)
 
 # Hexo Recommended Posts Plugin
-Recommended posts to promote your blog with both internal and external links. The plugin downloads recommended posts from a [recommendation server(also open sourced)](https://github.com/huiwang/encore).
+This plugin helps to promote your blog with recommended posts. It downloads recommended posts from a [recommendation server(also open sourced)](https://github.com/huiwang/encore). A recommended post list includes not only your own posts but also those from other bloggers using this service.
 
 Before getting stated, you can [live preview](http://hui-wang.info/2017/12/02/%E5%AD%A6%E4%B9%A0%E5%A6%82%E4%BD%95%E5%AD%A6%E4%B9%A0/) results of this plugin.
 
@@ -23,10 +23,10 @@ After editing a new post, hit the following command to fetch recommended posts.
 hexo recommend
 ```
 ## 3. Show recommended posts
-You need to have this feature in your theme to show recommended posts. It's integrated in the following theme
+If you use one of the following themes
 - [hexo-theme-freemind](https://github.com/wzpan/hexo-theme-freemind)
 
-To enable the feature, go to the theme `_config.yml`:
+You only need to enable the feature in your theme `_config.yml`:
 
 ```
 # Recommended posts
@@ -34,20 +34,11 @@ To enable the feature, go to the theme `_config.yml`:
 recommended_posts:
   enabled: true
 ```
-If your theme doesn't support this feature yet, you can customize yourself. 
-There are two popular theme rendering engines in Hexo：
+Otherwise, you can integrate it manually. There are two popular theme rendering engines in Hexo：
 - EJS: refer to config in [hexo-theme-freemind](https://github.com/wzpan/hexo-theme-freemind/pull/77/files)
 - SWIG：refer to config in [hexo-next-them](https://github.com/iissnan/hexo-theme-next/pull/2054/files)
 
 Please contact me to include your theme in the supported theme list if you are a theme maintainer.
-
-## 4. Generate 
-
-After downloading the lists, run `generate` to include recommended posts.
-```
-hexo generate
-```
-
 # FAQ
 - How to configure the number of internal and external links?
 
