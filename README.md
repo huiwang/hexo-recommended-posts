@@ -17,9 +17,42 @@ Hexo文章推荐插件，想做好一件事情：让独立博客连接起来。�
 ```
 npm install hexo-recommended-posts --save
 ```
-## 2. 配置插件
 
-在博客根目录的`_config.yml`里添加插件配置：
+## 2. 下载推荐文章列表
+
+在编辑完新的文章之后，使用如下命令获取推荐列表
+```
+hexo recommend
+```
+## 3. 显示推荐文章
+
+如果您使用下面其中一款主题，只需在主题的配置文件里激活推荐文章功能
+- [hexo-theme-freemind](https://github.com/wzpan/hexo-theme-freemind)
+
+```
+# Recommended posts
+# Dependency: https://github.com/huiwang/hexo-recommended-posts
+recommended_posts:
+  enabled: true
+```
+
+否则，您需要自己动手添加主题支持，Hexo有两个比较流行的渲染器：
+- EJS ：请参看[hexo-theme-freemind](https://github.com/wzpan/hexo-theme-freemind/pull/77/files)的配置
+- SWIG：请参看[hexo-next-them](https://github.com/iissnan/hexo-theme-next/pull/2054/files)的配置
+
+如果您是主题的维护者，请在配置完毕之后联系我，我会把您的主题加入到支持该插件的列表中。
+
+## 4. 生成博客
+
+下载完列表之后，生成博客，推荐文章将会按照主题的配置加入到相应的页面
+```
+hexo generate
+```
+
+# 常见问题
+- 如何自定义推荐文章参数？
+
+可以在博客根目录的`_config.yml`里来覆盖下面的默认配置：
 ```
 recommended_posts:
   server: https://api.truelaurel.com #后端推荐服务器地址
@@ -28,51 +61,6 @@ recommended_posts:
   externalLinks: 1 #外部文章数量
 ```
 
-## 3. 下载推荐文章列表
-
-在编辑完新的文章之后，使用如下命令获取推荐列表
-```
-hexo recommend
-```
-## 4. 显示推荐文章
-
-插件提供两个途径显示推荐文章，您可按需挑选
-- 通过在文章Markdown里插入`tag`操作单一文章
-- 通过修改主题，使用`helper`覆盖博客所有文章
-
-### 4.1. 手动添加Tag
-
-在文章Markdown的合适位置插入`{% recommended_posts %}`标签， 比如
-```
----
-title: Hello World
-date: 2017-12-21 20:21:52
-tags: [hello, world]
----
-文章正文
-# 推荐文章
-{% recommended_posts %}
-```
-
-### 4.2. 配置主题
-
-Hexo有两个比较流行的渲染器：
-- EJS ：请参看[hexo-theme-freemind](https://github.com/wzpan/hexo-theme-freemind/pull/77/files)的配置
-- SWIG：请参看[hexo-next-them](https://github.com/iissnan/hexo-theme-next/pull/2054/files)的配置
-
-如果您是主题的维护者，请在配置完毕之后联系我，我会把您的主题加入到支持该插件的列表中。
-
-### 已支持主题
-- [hexo-theme-freemind](https://github.com/wzpan/hexo-theme-freemind)
-
-## 5. 生成博客
-
-下载完列表之后，生成博客，推荐文章将会按照主题的配置加入到相应的页面
-```
-hexo generate
-```
-
-# 常见问题
 - 当无法连接推荐服务器时，插件如何工作？
 
 当服务器无法使用时，对旧文章，插件会使用原有的推荐列表；对新文章，将使用离线推荐算法推荐内部文章。
@@ -82,4 +70,3 @@ hexo generate
 我想感谢，未曾谋面的朋友们，对此插件的贡献，谢谢他们极具建设性的意见和快速的测试反馈
 - [reuixiy](https://reuixiy.github.io/)
 - [sd44](http://sd44.github.io/)
-

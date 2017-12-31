@@ -3,24 +3,10 @@
 
 [中文](README.md) | [English](README-en.md)
 
-# Acknowledgement
-First of all, I want to give credits to friends I've not met, for their constructive suggestions and prompt testing feedbacks on the plugin.
-- [reuixiy](https://reuixiy.github.io/)
-- [sd44](http://sd44.github.io/)
-
-# Supported theme
-- [hexo-theme-freemind](https://github.com/wzpan/hexo-theme-freemind)
-
 # Hexo Recommended Posts Plugin
-Recommended posts to promote your blog with both internal and external links. For more motivations, pleaser refer to [开发笔记(dev notes in English, help to translate?)](https://hui-wang.info/2017/12/22/%E5%AE%89%E5%8F%AF%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0%EF%BC%881%EF%BC%89/).
+Recommended posts to promote your blog with both internal and external links. The plugin downloads recommended posts from a [recommendation server(also open sourced)](https://github.com/huiwang/encore).
 
-# How it works
-The plugin downloads lists of recommended posts from a [recommendation server(also open sourced)](https://github.com/huiwang/encore). Such a list includes both internal and external links.
-All links are generated statically in your site. Therefore, there's no extra javascripts. This approch should also make your site more search-engine-friendly.
-
-We believe that we can create deeper and broader connections when we favor co-participation.   
-
-Before getting stated, you can [live preview](https://hui-wang.info) results of this plugin.
+Before getting stated, you can [live preview](http://hui-wang.info/2017/12/02/%E5%AD%A6%E4%B9%A0%E5%A6%82%E4%BD%95%E5%AD%A6%E4%B9%A0/) results of this plugin.
 
 # Get started
 
@@ -29,9 +15,43 @@ Before getting stated, you can [live preview](https://hui-wang.info) results of 
 ```
 npm install hexo-recommended-posts --save
 ```
-## 2. Configure
 
-In blog root directory, add the following configurations to `_config.yml`
+## 2. Downlaod recommended posts
+
+After editing a new post, hit the following command to fetch recommended posts.
+```
+hexo recommend
+```
+## 3. Show recommended posts
+You need to have this feature in your theme to show recommended posts. It's integrated in the following theme
+- [hexo-theme-freemind](https://github.com/wzpan/hexo-theme-freemind)
+
+To enable the feature, go to the theme `_config.yml`:
+
+```
+# Recommended posts
+# Dependency: https://github.com/huiwang/hexo-recommended-posts
+recommended_posts:
+  enabled: true
+```
+If your theme doesn't support this feature yet, you can customize yourself. 
+There are two popular theme rendering engines in Hexo：
+- EJS: refer to config in [hexo-theme-freemind](https://github.com/wzpan/hexo-theme-freemind/pull/77/files)
+- SWIG：refer to config in [hexo-next-them](https://github.com/iissnan/hexo-theme-next/pull/2054/files)
+
+Please contact me to include your theme in the supported theme list if you are a theme maintainer.
+
+## 4. Generate 
+
+After downloading the lists, run `generate` to include recommended posts.
+```
+hexo generate
+```
+
+# FAQ
+- How to configure the number of internal and external links?
+
+In blog root directory, you can override the default configuration in `_config.yml`
 ```
 recommended_posts:
   server: https://api.truelaurel.com # backend server url
@@ -40,49 +60,11 @@ recommended_posts:
   externalLinks: 1 # external links in the generated list
 ```
 
-## 3. Downlaod recommended posts
-
-After editing a new post, hit the following command to fetch recommended posts.
-```
-hexo recommend
-```
-## 4. Show recommended posts
-
-This plugin provides two options to show the recommended posts.
-- By inserting `tag` in post markdown (one single post impacted)
-- By rendering with `helper` in theme (entire site covered)
-
-### 4.1. Tag
-
-Insert the tag `{% recommended_posts %}` in post markdown, for instance:
-```
----
-title: post title
-date: 2017-12-22 21:54:35
-tags:
-- post tage
----
-Content
-### Recommended posts
-{% recommended_posts %}
-```
-
-### 4.2. Configure theme
-
-There are two popular theme rendering engines in Hexo：
-- EJS: refer to config in [hexo-theme-freemind](https://github.com/wzpan/hexo-theme-freemind/pull/77/files)
-- SWIG：refer to config in [hexo-next-them](https://github.com/iissnan/hexo-theme-next/pull/2054/files)
-
-Please contact me to include your theme in the supported theme list if you are a theme maintainer.
-
-## 5. Generate 
-
-After downloading the lists, run `generate` to include recommended posts.
-```
-hexo generate
-```
-
-# FAQ
 - What will happen if I can't connect to the recommendation server?
 
 When the server is not reachable, the plugin keeps the previously downloaded recommendation for existing posts and switches to an offline algorithm for new posts (only internal links are recommended). 
+
+# Thanks
+I want to give credits to the following people for their constructive suggestions and prompt testing feedbacks on the plugin.
+- [reuixiy](https://reuixiy.github.io/)
+- [sd44](http://sd44.github.io/)
