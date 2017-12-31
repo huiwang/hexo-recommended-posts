@@ -2,14 +2,6 @@
 [![Join the chat at https://gitter.im/hexo-recommended-posts/Lobby](https://badges.gitter.im/hexo-recommended-posts/Lobby.svg)](https://gitter.im/hexo-recommended-posts/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 [中文](README.md) | [English](README-en.md)
-# 致谢
-
-首先，我想感谢，未曾谋面的朋友们，对此插件的贡献，谢谢他们极具建设性的意见和快速的测试反馈
-- [reuixiy](https://reuixiy.github.io/)
-- [sd44](http://sd44.github.io/)
-
-# 已支持主题
-- [hexo-theme-freemind](https://github.com/wzpan/hexo-theme-freemind)
 
 # Hexo跨博客文章推荐插件
 
@@ -70,6 +62,9 @@ Hexo有两个比较流行的渲染器：
 
 如果您是主题的维护者，请在配置完毕之后联系我，我会把您的主题加入到支持该插件的列表中。
 
+### 已支持主题
+- [hexo-theme-freemind](https://github.com/wzpan/hexo-theme-freemind)
+
 ## 5. 生成博客
 
 下载完列表之后，生成博客，推荐文章将会按照主题的配置加入到相应的页面
@@ -81,3 +76,10 @@ hexo generate
 - 当无法连接推荐服务器时，插件如何工作？
 
 当服务器无法使用时，对旧文章，插件会使用原有的推荐列表；对新文章，将使用离线推荐算法推荐内部文章。
+
+# 致谢
+
+我想感谢，未曾谋面的朋友们，对此插件的贡献，谢谢他们极具建设性的意见和快速的测试反馈
+- [reuixiy](https://reuixiy.github.io/)
+- [sd44](http://sd44.github.io/)
+
