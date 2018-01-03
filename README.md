@@ -40,7 +40,7 @@ recommended_posts:
 首先，您需要关闭推荐文章的自动显示 `autoDisplay: false`。
 其次，您需要自定义您的博客主题，Hexo有两个比较流行的渲染器：
 - EJS ：请参看[hexo-theme-freemind](https://github.com/wzpan/hexo-theme-freemind/pull/77/files)的配置
-- SWIG：请参看[hexo-next-them](https://github.com/iissnan/hexo-theme-next/pull/2054/files)的配置
+- SWIG：请参看[hexo-next-theme](https://github.com/iissnan/hexo-theme-next/pull/2054/files)的配置
 
 ## 当无法连接推荐服务器时，插件如何工作？
 
