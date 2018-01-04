@@ -2,7 +2,7 @@
 [![Join the chat at https://gitter.im/hexo-recommended-posts/Lobby](https://badges.gitter.im/hexo-recommended-posts/Lobby.svg)](https://gitter.im/hexo-recommended-posts/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 # Hexo跨博客文章推荐插件
-此插件通过文章推荐的方式帮助大家推广博客，是借助人工智能，实现的友情链接的升级换代。它从推荐引擎里获取文章推荐列表，列表里既有您博客的内部文章链接，也有使用此服务的其他博主的外部链接，自动，精准，公平的实现文章互推。
+此插件[借助人工智能为友情链接升级换代](http://hui-wang.info/2018/01/04/%E7%94%A8%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%B8%BA%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5%E5%8D%87%E7%BA%A7%E6%8D%A2%E4%BB%A3/)，通过文章推荐的方式帮助大家推广博客。它从推荐引擎里获取文章推荐列表，列表里既有您博客的内部文章链接，也有使用此服务的其他博主的外部链接，自动，精准，公平的实现文章互推。
 
 在安装使用之前，您可以[实时预览](http://hui-wang.info/2017/12/02/%E5%AD%A6%E4%B9%A0%E5%A6%82%E4%BD%95%E5%AD%A6%E4%B9%A0/)该插件的效果。
 
