@@ -1,6 +1,6 @@
 {
   "name": "hexo-recommended-posts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Recommended Posts Plugin for Hexo",
   "main": "index.js",
   "repository": {
