@@ -32,8 +32,11 @@ recommended_posts:
   internalLinks: 3 #内部文章数量
   externalLinks: 1 #外部文章数量
   autoDisplay: true, #自动在文章底部显示推荐文章
+  excludePattern: [],
   titleHtml: <h1>推荐文章<span style="font-size:0.45em; color:gray">（由<a href="https://github.com/huiwang/hexo-recommended-posts">hexo文章推荐插件</a>驱动）</span></h1> #自定义标题
 ```
+
+其中 `excludePattern` 可以添加想要被过滤的链接的正则表达式, 如配置为 `["example.com"]`, 则所有包含 `example.com` 的链接都会从推荐文章中过滤掉.
 
 ## 如何自定义推荐文章的显示位置？
 
