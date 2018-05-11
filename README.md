@@ -31,12 +31,15 @@ recommended_posts:
   timeoutInMillis: 10000 #服务时长，超过此时长，则使用离线推荐模式
   internalLinks: 3 #内部文章数量
   externalLinks: 1 #外部文章数量
+  fixedNumber: false
   autoDisplay: true, #自动在文章底部显示推荐文章
   excludePattern: [],
   titleHtml: <h1>推荐文章<span style="font-size:0.45em; color:gray">（由<a href="https://github.com/huiwang/hexo-recommended-posts">hexo文章推荐插件</a>驱动）</span></h1> #自定义标题
 ```
 
 其中 `excludePattern` 可以添加想要被过滤的链接的正则表达式, 如配置为 `["example.com"]`, 则所有包含 `example.com` 的链接都会从推荐文章中过滤掉.
+
+`fixedNumber` 字段用来控制是否返回固定数量的推荐文章, 如果默认推荐文章不够的话会填充当前文章的前后文章作为推荐文章.
 
 ## 如何自定义推荐文章的显示位置？
 
