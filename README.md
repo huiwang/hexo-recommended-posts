@@ -32,8 +32,8 @@ recommended_posts:
   internalLinks: 3 #内部文章数量
   externalLinks: 1 #外部文章数量
   fixedNumber: false
-  autoDisplay: true, #自动在文章底部显示推荐文章
-  excludePattern: [],
+  autoDisplay: true #自动在文章底部显示推荐文章
+  excludePattern: []
   titleHtml: <h1>推荐文章<span style="font-size:0.45em; color:gray">（由<a href="https://github.com/huiwang/hexo-recommended-posts">hexo文章推荐插件</a>驱动）</span></h1> #自定义标题
 ```
 
